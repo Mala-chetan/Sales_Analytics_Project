@@ -46,3 +46,7 @@ Both relationships should be active and single-direction.
 - Average Order Revenue (AOV proxy) is calculated as total revenue / distinct Order_ID. The source currently has one row per Order_ID.
 - Profit margin is calculated as total profit / total revenue, not the average of row-level margin percentages.
 - SQL inserts should only be run once into empty target tables. Do not drop the original source table.
+
+## Dashboard Preview
+
+![Sales Analytics Dashboard]([screenshots/sales_dashboard.png](https://1drv.ms/i/c/5A8C903FBB8DEA79/AT6sGdp2gE1OkEmJsB1r-OU?e=DK7hHc))
