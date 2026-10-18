@@ -49,4 +49,4 @@ Both relationships should be active and single-direction.
 
 ## Dashboard Preview
 
-![Sales Analytics Dashboard]([screenshots/sales_dashboard.png](https://1drv.ms/i/c/5A8C903FBB8DEA79/AT6sGdp2gE1OkEmJsB1r-OU?e=DK7hHc))
+![Sales Analytics Dashboard](https://1drv.ms/i/c/5A8C903FBB8DEA79/AT6sGdp2gE1OkEmJsB1r-OU?e=DK7hHc))
