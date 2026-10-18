@@ -1,4 +1,4 @@
-# Project 1 — Sales Analytics using MySQL and Power BI
+<img width="1212" height="715" alt="Screenshot 2026-10-18 162647" src="https://github.com/user-attachments/assets/ce4d4bb5-c5ab-4780-a124-7d915f40243a" /># Project 1 — Sales Analytics using MySQL and Power BI
 
 ## Project objective
 Analyze 100,001 sales transactions to understand revenue, profitability, customer activity, product/category performance, and regional trends.
@@ -48,5 +48,7 @@ Both relationships should be active and single-direction.
 - SQL inserts should only be run once into empty target tables. Do not drop the original source table.
 
 ## Dashboard Preview
+![Sales Analytics Dashboard](<img width="1212" height="715" alt="Screenshot 2026-10-18 162647" src="https://github.com/user-attachments/assets/33618f36-7733-4063-aa2b-e0e0653833ba" />)
 
-![Sales Analytics Dashboard](https://1drv.ms/i/c/5A8C903FBB8DEA79/AT6sGdp2gE1OkEmJsB1r-OU?e=DK7hHc))
+
+
