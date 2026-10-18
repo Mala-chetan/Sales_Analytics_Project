@@ -1,0 +1,42 @@
+POWER BI DAX MEASURES
+Create each measure using Modeling > New measure.
+
+Total Revenue =
+SUM(FactSales[Revenue])
+
+Total Cost =
+SUM(FactSales[Cost])
+
+Total Profit =
+SUM(FactSales[Profit])
+
+Total Orders =
+DISTINCTCOUNT(FactSales[Order_ID])
+
+Total Customers =
+DISTINCTCOUNT(FactSales[Customer_Key])
+
+Units Sold =
+SUM(FactSales[Quantity])
+
+Profit Margin % =
+DIVIDE([Total Profit], [Total Revenue], 0)
+
+Average Order Revenue =
+DIVIDE([Total Revenue], [Total Orders], 0)
+
+Revenue per Customer =
+DIVIDE([Total Revenue], [Total Customers], 0)
+
+Revenue LY =
+CALCULATE(
+    [Total Revenue],
+    DATEADD(FactSales[Order_Date], -1, YEAR)
+)
+
+Revenue YoY Change =
+[Total Revenue] - [Revenue LY]
+
+Revenue YoY % =
+DIVIDE([Revenue YoY Change], [Revenue LY], 0)
+
